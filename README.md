@@ -26,7 +26,7 @@ make
 
 ## Usage
 After building, it will generate a file named `micro-ex`, which is our compiler.
-To compile the code in Micro/E language use the following command:
+To compile the code in Micro/Ex language use the following command:
 ```bash
 ./micro-ex < [input-file] > [output-file]
 ```
