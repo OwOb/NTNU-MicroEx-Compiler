@@ -5,7 +5,7 @@ A compiler for **Micro/Ex** language written in C++, using yacc and lex.
 
 ## Install
 
-You can use the following command to get the full code:
+You can use the following command to get the full code and testing data:
 ```bash
 git clone https://github.com/OwOb/NTNU-MicroEx-Compiler
 cd NTNU-MicroEx-Compiler
@@ -33,13 +33,13 @@ To compile the code in Micro/E language use the following command:
 
 ## Features
 
-The compiler support following syntax:
-* Declartion
+The compiler supports the following syntax:
+* Declaration
 * Arithmetic
 * Assignment
 * For loop
 * While loop
-* Condtional statement
+* Conditional statement
 * Nested structure
 
 ## Example
