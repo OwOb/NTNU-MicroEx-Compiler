@@ -158,7 +158,8 @@ lb&11:	I_CMP j,10
 	I_ADD j,1,T&24
 	I_Store T&24,j
 	J lb&11
-lb&12:lb&10:	I_ADD i,T&21,i
+lb&12:
+lb&10:	I_ADD i,T&21,i
 	I_CMP i,T&20
 	JL lb&9
 	CALL print,sum
