@@ -1,0 +1,12 @@
+%% 04 - IF-THEN-ENDIF
+Program test_04
+
+BEGIN
+	declare A as float;
+	
+	scan(A);
+	
+	IF (A>=1.0) THEN
+		print(A+3.14);
+	ENDIF
+END

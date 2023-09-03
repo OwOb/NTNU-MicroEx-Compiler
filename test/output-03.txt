@@ -1,0 +1,39 @@
+	START test_03
+	Declare A, Integer
+	Declare B, Integer
+	Declare C, Integer
+	Declare n, Integer_array, 100
+	Declare pi, Float
+	Declare a, Float
+	Declare r, Float
+	I_Store 2,A
+	I_SUB 5,A,T&1
+	I_MUL 6,T&1,T&2
+	I_ADD A,T&2,T&3
+	I_DIV T&3,2,T&4
+	I_Store T&4,B
+	I_MUL A,B,T&5
+	I_DIV T&5,6,T&6
+	I_Store T&6,C
+	I_Store A,n[0]
+	I_UMINUS C,T&7
+	I_MUL T&7,B,T&8
+	I_Store T&8,n[B]
+	F_Store 3.140000,pi
+	F_Store 60.000000,a
+	F_DIV a,180.000000,T&9
+	F_MUL 2.000000,pi,T&10
+	F_MUL T&9,T&10,T&11
+	F_Store T&11,r
+	HALT test_03
+	Declare T&1, Integer
+	Declare T&2, Integer
+	Declare T&3, Integer
+	Declare T&4, Integer
+	Declare T&5, Integer
+	Declare T&6, Integer
+	Declare T&7, Integer
+	Declare T&8, Integer
+	Declare T&9, Float
+	Declare T&10, Float
+	Declare T&11, Float

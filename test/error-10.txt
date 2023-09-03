@@ -1,0 +1,12 @@
+%% 10 - for non-integer
+Program error_10
+
+Begin
+	declare SUM as Integer;
+	declare I as Float;
+
+	SUM := 0;
+	FOR (I := 1 TO 100)
+		SUM := SUM +I;
+	ENDFOR
+End

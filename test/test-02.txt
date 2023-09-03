@@ -1,0 +1,9 @@
+%% 02 - DECLARE 
+PROGRAM test_02
+
+BEGIN
+	DECLARE test_for_long_var_name, j___ AS Integer;
+	DECLARE A, B, C[4], D[100] AS Float;
+
+	DECLARE x123, y456y, z_789_z AS Integer;
+END

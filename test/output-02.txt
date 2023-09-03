@@ -1,0 +1,11 @@
+	START test_02
+	Declare test_for_long_var_name, Integer
+	Declare j___, Integer
+	Declare A, Float
+	Declare B, Float
+	Declare C, Float_array, 4
+	Declare D, Float_array, 100
+	Declare x123, Integer
+	Declare y456y, Integer
+	Declare z_789_z, Integer
+	HALT test_02

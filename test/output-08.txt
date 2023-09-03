@@ -1,0 +1,17 @@
+	START test_08
+	Declare sum, Integer_array, 100
+	Declare i, Integer
+	I_Store 0,sum[0]
+	I_Store 1,i
+lb&1:	I_CMP i,100
+	JGE lb&2
+	I_SUB i,1,T&1
+	I_ADD sum[T&1],i,T&2
+	I_Store T&2,sum[i]
+	I_ADD i,1,T&3
+	I_Store T&3,i
+	J lb&1
+lb&2:	HALT test_08
+	Declare T&1, Integer
+	Declare T&2, Integer
+	Declare T&3, Integer

@@ -1,0 +1,7 @@
+%% 02 - undeclare
+Program error_02
+
+Begin
+	declare A, B as Integer;
+	A := B * C;	
+End

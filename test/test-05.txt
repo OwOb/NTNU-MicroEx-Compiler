@@ -1,0 +1,16 @@
+%% 05 - IF-THEN-ELSE-ENDIF
+Program test_05
+
+BEGIN
+	declare A,B as Integer;
+	
+	scan(A);
+	
+	IF (A>=10) THEN
+		B := A*A;
+	ELSE
+		B := 2*A;
+	ENDIF
+	
+	print(B);
+END

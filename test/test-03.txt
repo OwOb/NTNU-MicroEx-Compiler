@@ -1,0 +1,17 @@
+%% 03 - ASSIGNMENT
+Program test_03
+
+BEGIN
+	declare A, B, C, n[100] as Integer;
+	declare pi, a, r as Float;
+	
+	A := 2;
+	B := (A + 6 * (5-A)) / 2;
+	C := A*B/6;
+	n[0] := A;
+	n[B] := -C * B;
+	
+	pi := 3.14;
+	a := 6e1;
+	r := (a/1.8e2) * (2.0*pi);
+END

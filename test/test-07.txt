@@ -1,0 +1,19 @@
+%% 07 - FOR-STEP-LOOP
+Program test_07
+
+Begin
+	declare I, SUM1, SUM2 as integer;
+
+	SUM1 := 0;
+	FOR (I := 1 TO (2+2)*25 STEP 1+1)
+		SUM1:=SUM1+I;
+	ENDFOR
+
+	SUM2 := 0;
+	FOR (I := 9*9 DOWNTO 1 STEP 5)
+		SUM2:=SUM2+I;
+	ENDFOR
+
+	print(SUM1, SUM2);
+	
+End

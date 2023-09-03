@@ -1,0 +1,7 @@
+%% 01 - redeclare
+Program error_01
+
+Begin
+	declare A, B, C as Integer;
+	declare F, C, K as Float;
+End

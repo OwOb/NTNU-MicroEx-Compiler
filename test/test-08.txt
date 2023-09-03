@@ -1,0 +1,13 @@
+%% 08 - WHILE-LOOP
+Program test_08
+
+Begin
+	Declare sum[100], i As Integer;
+	
+	sum[0] := 0;
+	i := 1;
+	WHILE (i < 100)
+		sum[i] := sum[i-1] + i;
+		i := i + 1;
+	ENDWHILE
+End

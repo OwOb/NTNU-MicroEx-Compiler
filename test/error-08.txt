@@ -1,0 +1,10 @@
+%% 08 - assign type error
+Program error_08
+
+Begin
+	declare A as Integer;
+	declare F as Float;
+
+	A := 1;
+	F := A;
+End

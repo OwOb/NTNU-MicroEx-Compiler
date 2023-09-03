@@ -1,0 +1,22 @@
+	START test_06
+	Declare I, Integer
+	Declare SUM1, Integer
+	Declare SUM2, Integer
+	I_Store 0,SUM1
+	I_Store 1,I
+lb&1:	I_ADD SUM1,I,T&1
+	I_Store T&1,SUM1
+	INC I
+	I_CMP I,100
+	JL lb&1
+	I_Store 0,SUM2
+	I_Store 100,I
+lb&2:	I_ADD SUM2,I,T&2
+	I_Store T&2,SUM2
+	DEC I
+	I_CMP I,1
+	JG lb&2
+	CALL print,SUM1,SUM2
+	HALT test_06
+	Declare T&1, Integer
+	Declare T&2, Integer

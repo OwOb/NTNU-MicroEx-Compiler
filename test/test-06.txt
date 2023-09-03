@@ -1,0 +1,19 @@
+%% 06 - FOR-LOOP
+Program test_06
+
+Begin
+	declare I, SUM1, SUM2 as integer;
+
+	SUM1 := 0;
+	FOR (I := 1 TO 100)
+		SUM1:=SUM1+I;
+	ENDFOR
+
+	SUM2 := 0;
+	FOR (I := 100 DOWNTO 1)
+		SUM2:=SUM2+I;
+	ENDFOR
+
+	print(SUM1, SUM2);
+	
+End

@@ -1,0 +1,9 @@
+%% 04 - array index
+Program error_04
+
+Begin
+	declare A[100] as Integer;
+	declare f as Float;
+
+	A[f] := 0;
+End

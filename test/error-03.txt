@@ -1,0 +1,7 @@
+%% 03 - non-array
+Program error_03
+
+Begin
+	declare A, B as Integer;
+	A[0] := B;	
+End

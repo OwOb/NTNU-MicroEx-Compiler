@@ -1,0 +1,9 @@
+	START test_04
+	Declare A, Float
+	CALL scan,A
+	F_CMP A,1.000000
+	JL lb&1
+	F_ADD A,3.140000,T&1
+	CALL print,T&1
+lb&1:	HALT test_04
+	Declare T&1, Float

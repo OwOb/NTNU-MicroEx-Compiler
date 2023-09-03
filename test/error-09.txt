@@ -1,0 +1,11 @@
+%% 09 - for non-integer
+Program error_09
+
+Begin
+	declare I, SUM as Integer;
+
+	SUM := 0;
+	FOR (I := 1.2 TO 10)
+		SUM := SUM +I;
+	ENDFOR
+End

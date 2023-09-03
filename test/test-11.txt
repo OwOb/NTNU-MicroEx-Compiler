@@ -1,0 +1,41 @@
+%% 11 - comprehensive test
+Program test_11
+
+Begin
+	declare mul[100], i, j as Integer;
+
+	FOR (i := 1 TO 10)
+		FOR (j := 9 DOWNTO 0)
+			IF (i*j < 50) THEN
+				mul[i*10+j] := i*j;
+			ELSE
+				mul[i*10+j] := i*j - 50;
+			ENDIF
+		ENDFOR
+		IF (i < 5) THEN
+			FOR (j := 9 DOWNTO 0)
+				mul[i*10+j] := mul[i*10+j] + 10;
+			ENDFOR
+		ELSE
+			FOR (j := 9 DOWNTO 0)
+				mul[i*10+j] := mul[i*10+j] - 10;
+			ENDFOR
+		ENDIF
+	ENDFOR
+	
+	declare sum, a, b, c, d as Integer;
+	
+	scan(a, b, c, d);
+	sum := 0;
+	FOR (i := 0 TO a+b*c STEP d-1)
+		IF (mul[i] > 20) THEN
+			j := 0;
+			WHILE (j != 10)
+				sum := sum + j * mul[i];
+				j := j+1;
+			ENDWHILE
+		ENDIF
+	ENDFOR
+
+	print(sum);
+End

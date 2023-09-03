@@ -1,0 +1,15 @@
+	START test_05
+	Declare A, Integer
+	Declare B, Integer
+	CALL scan,A
+	I_CMP A,10
+	JL lb&1
+	I_MUL A,A,T&1
+	I_Store T&1,B
+	J lb&2
+lb&1:	I_MUL 2,A,T&2
+	I_Store T&2,B
+lb&2:	CALL print,B
+	HALT test_05
+	Declare T&1, Integer
+	Declare T&2, Integer

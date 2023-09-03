@@ -1,0 +1,14 @@
+%% 07 - compare type error
+Program error_07
+
+Begin
+	declare A as Integer;
+	declare F as Float;
+
+
+	A := 1;
+	F := 1.0;
+	IF (A == F) THEN
+		print(A, F);
+	ENDIF
+End

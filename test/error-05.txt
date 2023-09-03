@@ -1,0 +1,8 @@
+%% 05 - minus array
+Program error_05
+
+Begin
+	declare A[100], B as Integer;
+
+	B := -A;
+End
